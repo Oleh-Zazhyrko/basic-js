@@ -24,9 +24,8 @@ function countCats(matrix) {
 			// if (!isNaN(matrix[i][j]) || matrix[i][j] === cat) number++;
 			if (matrix[i][j] === cat) number++;
 		}
-
-		return number;
 	}
+	return number;
 
 	// remove line with error and write your code here
 }
